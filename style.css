@@ -58,6 +58,7 @@
         width: 280px;
         height: 410px;
         margin: 50px auto;
+        margin-right: 13px;
     }
     .date-input {
         margin: 15px 0;
