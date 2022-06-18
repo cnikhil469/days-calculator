@@ -1,5 +1,4 @@
 .containor {
-    border: 2px solid #1D8A7F;
     width: 500px;
     height: 300px;
     justify-items: center;
@@ -29,6 +28,8 @@
     border: 1px solid #fff;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .row2 {
@@ -43,5 +44,25 @@
     margin: 20px;
     border-radius: 5px;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 850px) {
+    .containor{
+        width: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 570px) {
+    .containor{
+        width: 280px;
+        height: 410px;
+    }
+    .date-input {
+        margin: 15px 0;
+    }
+    .submit-button{
+        margin: 10px 10px 0 10px;
+    }
 }
 
